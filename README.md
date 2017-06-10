@@ -1,6 +1,8 @@
 # Filigrane
 A dead simple image watermaker made with Go, with no dependencies.
 
+Note: this does not work correctly with JPEGs rotated via EXIF.
+
 ## Usage
 Place a `watermark.png` along the executable and call `filigrane` with any JPEG
 you want watermarked as an argument.
